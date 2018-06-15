@@ -19,21 +19,20 @@ The source code and dependencies are available from the Windows Admin Center tea
 
 Install dependencies for your project with npm.
 -	Install global dependencies for your project:
-	```
-	npm install npm@5.5.1 -g
-	npm install @angular/cli@1.6.5 -g
-	npm install -g gulp
-    npm install typescript@2.5.3 -g
-    npm install tslint@5.7.0 -g
-    npm isntall -g windows-admin-center-cli
+  ```
+  npm install npm@5.5.1 -g
+  npm install @angular/cli@1.6.5 -g
+  npm install -g gulp
+  npm install typescript@2.5.3 -g
+  npm install tslint@5.7.0 -g
+  npm install -g windows-admin-center-cli
+  ```
 
-	```
+### Install Developer Tools ###
 
-### Install the Developer Tools ###
+Windows Admin Center Developer Tools is available as an optional extension that you can download and install to your gateway.
 
-As an optional tool, we provide the Windows Admin Center Developer Tools as an optional extension that you can download and install in your instance of the gateway.
-
-To install the extension, click the Settings gear in the top right hand corner of Windows Admin Center, and then click "Extensions" in the navigation menu on the right side of the page.  From the table that loads under "Available Extensions" (assuming you have not already performed the installation), click Windows Admin Center Developer Tools, and click "Install".
+To install the extension, click the Settings gear in the top right hand corner of Windows Admin Center and click "Extensions" in the navigation menu on the right side of the page.  From the table that loads under "Available Extensions" (assuming you have not already performed the installation), click Windows Admin Center Developer Tools, and click "Install".
 
 This process requires Admin permissions to update files on the local file system, so you will need to accept the elevation confirmation and wait for the page to refresh.  You will notice a notification in the top right hand bar, and the tables will refresh when the install is complete.
 
@@ -66,7 +65,7 @@ Once the wac create command completes, you have everything you need to run your 
 cd MyTestProject
 ```
 
-and then you need to install all dependencies bofore building.
+and then you need to install all dependencies before building.
 
 ```
 npm install
@@ -84,7 +83,7 @@ and then
 gulp serve -p 4200
 ```
 
-Please not that the 4200 is just the port that the extension gets hosted on.  You can choose any port number as long as it's not already in use.
+Please note that the 4200 is just the port that the extension gets hosted on.  You can choose any port number as long as it's not already in use.
 
 ## Honolulu Extensions SDK in-depth ##
 
